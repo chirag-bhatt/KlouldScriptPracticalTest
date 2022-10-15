@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JR7M55ZW8lOubj3gC4OVBfYdrNMD6MfCDTS4qoFIMOWjYbTrykFdigIaXTZejno+aT+jEaUpaxyj0Ax7mqPIpA==",
+  "dgSpecHash": "bIeSQAw8bGYRwxXsXjKQXixaBNf1JWMQtm91JS7i6HhLK/BAf6wJcfySDNbBJgIlFBP2Ost5h93/aTwXItZlRQ==",
   "success": true,
   "projectFilePath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\chirag\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\chirag\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\chirag\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

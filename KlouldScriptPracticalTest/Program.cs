@@ -1,3 +1,4 @@
+using KlouldScriptPracticalTest.Middleware;
 using KlouldScriptRepository.Patient;
 using KlouldScriptRepository.Plan;
 using KlouldScriptService.Patient;
@@ -27,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseErrorHandlingMiddleware();
 
 app.UseHttpsRedirection();
 
