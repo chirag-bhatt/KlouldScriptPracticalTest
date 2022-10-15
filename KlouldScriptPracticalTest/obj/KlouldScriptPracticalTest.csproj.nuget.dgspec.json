@@ -4,6 +4,61 @@
     "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest.csproj": {}
   },
   "projects": {
+    "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj",
+        "projectName": "KlouldScriptCore",
+        "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj",
+        "packagesPath": "C:\\Users\\chirag\\.nuget\\packages\\",
+        "outputPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chirag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +82,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\KlouldScriptService.csproj": {
+                "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\KlouldScriptService.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +119,143 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\KlouldScriptRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\KlouldScriptRepository.csproj",
+        "projectName": "KlouldScriptRepository",
+        "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\KlouldScriptRepository.csproj",
+        "packagesPath": "C:\\Users\\chirag\\.nuget\\packages\\",
+        "outputPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chirag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj": {
+                "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[29.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\KlouldScriptService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\KlouldScriptService.csproj",
+        "projectName": "KlouldScriptService",
+        "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\KlouldScriptService.csproj",
+        "packagesPath": "C:\\Users\\chirag\\.nuget\\packages\\",
+        "outputPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chirag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj": {
+                "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptCore\\KlouldScriptCore.csproj"
+              },
+              "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\KlouldScriptRepository.csproj": {
+                "projectPath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptRepository\\KlouldScriptRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

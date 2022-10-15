@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlouldScriptPracticalTest", "KlouldScriptPracticalTest\KlouldScriptPracticalTest.csproj", "{0BC0B356-4CE1-43CA-91AE-3835EE31E5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlouldScriptService", "KlouldScriptService\KlouldScriptService.csproj", "{3FEC9F9E-BA25-432B-BEE8-899CA829B241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlouldScriptRepository", "KlouldScriptRepository\KlouldScriptRepository.csproj", "{59BDF8D3-D608-4C62-9052-AE7C64308A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlouldScriptCore", "KlouldScriptCore\KlouldScriptCore.csproj", "{13E98792-2C5C-487C-837A-E0EC37FD5202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{0BC0B356-4CE1-43CA-91AE-3835EE31E5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC0B356-4CE1-43CA-91AE-3835EE31E5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC0B356-4CE1-43CA-91AE-3835EE31E5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEC9F9E-BA25-432B-BEE8-899CA829B241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEC9F9E-BA25-432B-BEE8-899CA829B241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEC9F9E-BA25-432B-BEE8-899CA829B241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEC9F9E-BA25-432B-BEE8-899CA829B241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BDF8D3-D608-4C62-9052-AE7C64308A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BDF8D3-D608-4C62-9052-AE7C64308A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BDF8D3-D608-4C62-9052-AE7C64308A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BDF8D3-D608-4C62-9052-AE7C64308A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E98792-2C5C-487C-837A-E0EC37FD5202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E98792-2C5C-487C-837A-E0EC37FD5202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E98792-2C5C-487C-837A-E0EC37FD5202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E98792-2C5C-487C-837A-E0EC37FD5202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

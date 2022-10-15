@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "C4/ZpuGhlAhAgTz0aKsa88REL8+SuxsJwr8GdQXZFGk2axJZE28XA22IlVu9cgdk4H7JrMcwZLRoqrsGuEUybg==",
+  "dgSpecHash": "JR7M55ZW8lOubj3gC4OVBfYdrNMD6MfCDTS4qoFIMOWjYbTrykFdigIaXTZejno+aT+jEaUpaxyj0Ax7mqPIpA==",
   "success": true,
   "projectFilePath": "D:\\KlouldScript\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest\\KlouldScriptPracticalTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\chirag\\.nuget\\packages\\csvhelper\\29.0.0\\csvhelper.29.0.0.nupkg.sha512",
+    "C:\\Users\\chirag\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\chirag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\chirag\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512"
   ],
   "logs": []
 }
